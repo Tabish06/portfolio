@@ -108,6 +108,17 @@
 				.appendTo($body);
 
 		// Header.
+		$('#header')
+		.panel({
+			delay: 500,
+			hideOnClick: true,
+			hideOnSwipe: true,
+			resetScroll: true,
+			resetForms: true,
+			side: 'left',
+			target: $body,
+			visibleClass: 'header-visible'
+		});
 
 })(jQuery);
 
@@ -116,17 +127,6 @@ jQuery(document).ready(function(){
 		jQuery(this).find('.skillbar-bar').animate({
 			width:jQuery(this).attr('data-percent')
 		},6000);
-	});
-	$('#header')
-	.panel({
-		delay: 500,
-		hideOnClick: true,
-		hideOnSwipe: true,
-		resetScroll: true,
-		resetForms: true,
-		side: 'left',
-		target: $('body'),
-		visibleClass: 'header-visible'
 	});
 
 });
