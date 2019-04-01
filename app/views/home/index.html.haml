@@ -1,0 +1,301 @@
+%html
+  %head
+
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title Tabish Maniar
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "width=device-width, initial-scale=1, user-scalable=no", :name => "viewport"}/
+    / %link{:href => "assets/css/main.css", :rel => "stylesheet"}/
+  %body.is-preload
+    / Header
+    #header
+      .top
+        / Logo
+        #logo
+          %span.image.avatar48
+            =image_tag("avatar_s.jpeg")
+            / %img{:alt => "", :src => "../../assets/images/avatar_s.jpeg"}/
+          %h1#title Tabish Maniar
+          %p Graduate Student
+        / Nav
+        %nav#nav
+          %ul
+            %li
+              %a#top-link{:href => "#top"}
+                %span.icon.fa-home Intro
+            %li
+              %a#project-link{:href => "#project"}
+                %span.icon.fa-tasks Project
+            %li
+              %a#education-link{:href => "#education"}
+                %span.icon.fa-graduation-cap Education
+            %li
+              %a#experience-link{:href => "#experience"}
+                %span.icon.fa-building Experience
+            %li
+              %a#skill-link{:href => "#skill"}
+                %span.icon.fa-microchip Skills
+            %li
+              %a#contact-link{:href => "#contact"}
+                %span.icon.fa-envelope Contact
+      .bottom
+        / Social Icons
+        %ul.icons
+          %li
+            %a.icon.fa-twitter{:href => "https://twitter.com/tabishmaniar", :target => "_blank"}
+              %span.label Twitter
+          %li
+            %a.icon.fa-facebook{:href => "https://www.facebook.com/tabish.maniar", :target => "_blank"}
+              %span.label Facebook
+          %li
+            %a.icon.fa-github{:href => "https://github.com/Tabish06/", :target => "_blank"}
+              %span.label Github
+          %li
+            %a.icon.fa-envelope{:href => "mailto:maniartabish@gmail.com", :target => "_blank"}
+              %span.label Email
+    / Main
+    #main
+      / Intro
+      %section#top.one.dark.cover
+        .container
+          %header
+            %h2.alt
+              %strong Study without desire spoils the memory, and it retains nothing that it takes in succeed
+              %br
+              %br
+              ="-Leonardo Da Vinci"
+            %p
+              %br/
+          /
+            <footer>
+            <a href="#portfolio" class="button scrolly">About Me</a>
+            </footer>
+      / Portfolio
+      %section#portfolio.two
+        .container
+          %header
+            %h2 About Me
+          %p
+            Graduate Student at University of North Carolina at Charlotte.
+            I'm actively looking for summer internship oppurtunies in the field of Computer Science.
+            I'm an experienced Software Developer with experience in E-commerce Industry with strong technology skills in Ruby on Rails, iOS Application Development, Java, R, Python, JavaScript, PostgreSQL, Memcache.
+      / About Me
+      %section#project.three
+        .container
+          %header
+            %h2 Projects
+          %ul.align-left
+            %li
+              %h4 Extracting Customer KPI from Academic and Business Papers
+              / <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+              An automated system to extract Customer KPI from Academic and Business Papers using Machine Learning.
+              %br/
+            %li
+              %h4 Computational Fluid Dynamics using Deep Learning Approach
+              / <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+              Using Deep Learning techniques for calculating fluid speed vectors in each direction in 3D Space when an object is kept under consideration with different geometry.
+              %br/
+            %li
+              %h4 Action Driven Object Detection on Weakly Supervised Data
+              / <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+              Implemented RetinaNet, a deep learning algorithm for object detection in determining the bounding box and the object on a Weakly Supervised Data using Charades Dataset.
+              %br/
+            %li
+              %h4 FERRA- Facial Emotion Recognition for Retail Analytics - InVue
+              Providing Facial Feature Recognition such as age, gender, emotion and ethnicity using Convolutional Neural Network(CNN) and providing the emotion confidence for Retail Analytics.
+            %h3
+      %section#education.four
+        .container
+          %header
+            %h2 Education
+          %ul.align-left
+            %li
+              %h4 University of North Carolina at Charlotte
+              Master of Science in Computer Science , 2018-2020 , GPA: 4.0/4.0
+              %br/
+              %span.label-course Machine Learning
+              %span.label-course Computer Vision
+              %span.label-course Big Data Analytics for Competitve Advantage
+              %span.label-course Knowledge Discovery in Databases
+              %span.label-course Analysis of Algorithms
+            %li
+              %h4 University of Mumbai
+              B.E in Information Technology, 2012-2016, GPA: 7.83/10.0
+              %br/
+              %span.label-course Data Mining and Business Intelligence
+              %span.label-course Image Processing
+              %span.label-course Big Data Analytics
+      %section#experience.five
+        .container
+          %header
+            %h2
+              Experience
+          %ul.align-left
+            %li
+              %h4
+                Graduate Research Assistant, ​ University of North Carolina at Charlotte, USA
+                Nov 2018 – Present
+              Technologies Used: Python, Java, JavaScript, Cordova, Shell Script, Android, PhoneGap.
+              ● Analysed and Reduced runtime overhead of HybridGuard Framework using RESTFul APIs, JavaScript
+              and SQL.
+              ● Scrapped websites to find hybrid mobile applications.
+            %li
+              %h4
+                Software Developer​ , ​ Mirraw Online Services - an Ecommerce Start-up, Mumbai, India
+                Aug 2016 – Jun 2018
+              Technologies Used: iOS App Development, Ruby on Rails, JavaScript, PostgreSQL, AJAX, Python, AWS.
+              ● Designed, implemented and released Landing Page on Mirraw iOS App with configurable UI
+              components to enhance User Experience using Swift increasing the overall click through rate by
+              10%.
+              ● Managing and teaching iOS Development and Ruby on Rails Development to new developers.
+              ● Developed Order Check System which decreased the Order Defect Rate from 28% to 5%.
+              ● Optimized response time of PostgreSQL Server by monitoring and reducing the number of queries
+              and by using caching.
+              ● Integrated multiple 3​rd​ party Restful APIs from partners such as Fedex, DHL, Shadowfax, Paypal.
+              ● Discerned and solved critical bugs on payments module which caused Order Payments to fail.
+            %li
+              %h4 Business Analyst Intern​ , ​ Vamanetra DigiHealth, Mumbai, India
+              Technologies Used: R, Python, Shiny, .NET Framework.
+              %br/
+              ● Analysed data related to endemic using R.
+              %br/
+              ● Developed a UI for data visualization and insights using Shiny Framework.
+              %br/
+              ● Connected R to .NET framework.
+              %br/
+      %section#skill.six
+        .container
+          %header
+            %h2
+              Technology Skills
+          .row
+            .col-12
+              .skillbar.clearfix{"data-percent" => "90%"}
+                .skillbar-title{:style => "background: #d35400;"}
+                  %span Ruby
+                .skillbar-bar{:style => "background: #e67e22;"}
+                .skill-bar-percent 90%
+              / End Skill Bar
+              .skillbar.clearfix{"data-percent" => "75%"}
+                .skillbar-title{:style => "background: #2980b9;"}
+                  %span Python
+                .skillbar-bar{:style => "background: #3498db;"}
+                .skill-bar-percent 75%
+              / End Skill Bar
+              .skillbar.clearfix{"data-percent" => "70%"}
+                .skillbar-title{:style => "background: #2980b9;"}
+                  %span R
+                .skillbar-bar{:style => "background: #3498db;"}
+                .skill-bar-percent 70%
+              / End Skill Bar
+              .skillbar.clearfix{"data-percent" => "90%"}
+                .skillbar-title{:style => "background: #2980b9;"}
+                  %span Swift
+                .skillbar-bar{:style => "background: #3498db;"}
+                .skill-bar-percent 90%
+              / End Skill Bar
+              .skillbar.clearfix{"data-percent" => "90%"}
+                .skillbar-title{:style => "background: #2980b9;"}
+                  %span Rails
+                .skillbar-bar{:style => "background: #3498db;"}
+                .skill-bar-percent 90%
+              / End Skill Bar
+              .skillbar.clearfix{"data-percent" => "95%"}
+                .skillbar-title{:style => "background: #2980b9;"}
+                  %span iOS
+                .skillbar-bar{:style => "background: #3498db;"}
+                .skill-bar-percent 95%
+              / End Skill Bar
+              .skillbar.clearfix{"data-percent" => "75%"}
+                .skillbar-title{:style => "background: #2980b9;"}
+                  %span Java
+                .skillbar-bar{:style => "background: #3498db;"}
+                .skill-bar-percent 75%
+              / End Skill Bar
+              .skillbar.clearfix{"data-percent" => "80%"}
+                .skillbar-title{:style => "background: #2c3e50;"}
+                  %span jQuery
+                .skillbar-bar{:style => "background: #2c3e50;"}
+                .skill-bar-percent 80%
+              / End Skill Bar
+              .skillbar.clearfix{"data-percent" => "90%"}
+                .skillbar-title{:style => "background: #2c3e50;"}
+                  %span SQL
+                .skillbar-bar{:style => "background: #2c3e50;"}
+                .skill-bar-percent 90%
+              / End Skill Bar
+              .skillbar.clearfix{"data-percent" => "65%"}
+                .skillbar-title{:style => "background: #2c3e50;"}
+                  %span Tensorflow
+                .skillbar-bar{:style => "background: #2c3e50;"}
+                .skill-bar-percent 65%
+              / End Skill Bar
+              .skillbar.clearfix{"data-percent" => "70%"}
+                .skillbar-title{:style => "background: #2c3e50;"}
+                  %span Keras
+                .skillbar-bar{:style => "background: #2c3e50;"}
+                .skill-bar-percent 70%
+              / End Skill Bar
+              .skillbar.clearfix{"data-percent" => "80%"}
+                .skillbar-title{:style => "background: #46465e;"}
+                  %span HTML5
+                .skillbar-bar{:style => "background: #5a68a5;"}
+                .skill-bar-percent 80%
+              / End Skill Bar
+              .skillbar.clearfix{"data-percent" => "95%"}
+                .skillbar-title{:style => "background: #333333;"}
+                  %span CSS
+                .skillbar-bar{:style => "background: #525252;"}
+                .skill-bar-percent 95%
+              / End Skill Bar
+              .skillbar.clearfix{"data-percent" => "90%"}
+                .skillbar-title{:style => "background: #27ae60;"}
+                  %span JavaScript
+                .skillbar-bar{:style => "background: #2ecc71;"}
+                .skill-bar-percent 90%
+              / End Skill Bar
+              .skillbar.clearfix{"data-percent" => "90%"}
+                .skillbar-title{:style => "background: #124e8c;"}
+                  %span CoffeeScript
+                .skillbar-bar{:style => "background: #4288d0;"}
+                .skill-bar-percent 90%
+              .skillbar.clearfix{"data-percent" => "100%"}
+                .skillbar-title{:style => "background: #124e8c;"}
+                  %span Git
+                .skillbar-bar{:style => "background: #4288d0;"}
+                .skill-bar-percent 100%
+      / Contact
+      %section#contact.seven
+        .container
+          %header
+            %h2 Contact
+          %p
+            %span.icon.fa-map-marker
+            Charlotte,NC
+            %br/
+            %a{:href => "mailto:tmaniar@uncc.edu"} tmaniar@uncc.edu
+    / Footer
+    / <div id="footer">
+    / Copyright
+    /
+      <ul class="copyright">
+      <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+      </ul>
+    / </div>
+    / Scripts
+    / %script{:src => "assets/javascripts/jquery.min.js"}
+    / %script{:src => "assets/javascripts/jquery.scrolly.min.js"}
+    / %script{:src => "assets/javascripts/jquery.scrollex.min.js"}
+    / %script{:src => "assets/javascripts/browser.min.js"}
+    / %script{:src => "assets/javascripts/breakpoints.min.js"}
+    / %script{:src => "assets/javascripts/util.js"}
+    / %script{:src => "assets/javascripts/main.js"}
+
+
+    =javascript_include_tag "jquery.min.js"
+    =javascript_include_tag "jquery.scrolly.min.js"
+    =javascript_include_tag "jquery.scrollex.min.js"
+    =javascript_include_tag "browser.min.js"
+    =javascript_include_tag "breakpoints.min.js"
+    =javascript_include_tag "util.js"
+    =javascript_include_tag "main.js"
