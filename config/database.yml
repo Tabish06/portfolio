@@ -23,8 +23,8 @@ default: &default
 
 development:
   <<: *default
-  username: tabish
-  password: Dilnawaz
+  username: postgres
+  password: tabish
   database: portfolio_development
 
   # The specified database role being used to connect to postgres.
